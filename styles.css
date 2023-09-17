@@ -46,8 +46,9 @@ body {
 
 .row .btn {
   margin: 1.3rem;
-  padding: 2.5rem;
+  padding: 1.5rem 1rem;
   font-size: 2rem;
+  width: 5rem;
   border: 1px solid dodgerblue;
   outline: none;
   border-radius: 6px;
@@ -66,12 +67,6 @@ body {
   background-color: white;
 }
 
-.row .btn-primary {
-  padding: 2.4rem;
-  margin-left: 1.8rem;
-  font-size: 2.3rem;
-}
-
 .screen,
 .rows {
   border: 2px solid blue;
@@ -83,7 +78,10 @@ body {
 .rows {
   border-top: 0;
   border-radius: 0rem 0 2rem 2rem;
-  padding: 3.4rem;
+  padding: 6.1rem;
+}
+
+.btn-secondary {
 }
 
 @media screen and (max-width: 468px) {
